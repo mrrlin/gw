@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+#item-buttons,#confirm-buttons {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+#ARButton {
+    background-color: #6C3EB8 !important;
+    border: none !important;
+    top: 314px;
+    bottom: auto !important;
+    opacity: 1 !important;
+    right: 700px;
+    left: auto !important;
+}
+.button-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 5px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+@media (max-width: 1024px) {
+    #ARButton {
+        bottom: 100px !important;
+        left: calc(50% - 50px) !important;
+        height: 35px;
+
+    }
+}

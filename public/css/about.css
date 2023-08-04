@@ -1,0 +1,42 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    padding: 50px 0;
+    background-color: #bfbfbf;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.partnership-row {
+    padding-bottom: 100px;
+}
+.partner-img {
+    display: block;
+    margin: 0 auto;
+}
+.partner-card {
+    cursor: pointer;
+}
